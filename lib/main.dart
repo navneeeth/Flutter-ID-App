@@ -65,24 +65,6 @@ class NinjaCard extends StatelessWidget {
               ),
             ),
             SizedBox(height: 30.0),
-            Text(
-              'TOTAL XP GAINED',
-              style: TextStyle(
-                color: Colors.grey,
-                letterSpacing: 2.0,
-              ),
-            ),
-            SizedBox(height: 10.0),
-            Text(
-              '35000',
-              style: TextStyle(
-                color: Colors.amberAccent,
-                letterSpacing: 2.0,
-                fontSize: 28.0,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            SizedBox(height: 30.0),
             Row(
               children: <Widget>[
                 Icon(
@@ -107,4 +89,17 @@ class NinjaCard extends StatelessWidget {
     );
   }
 }
+
+class Test extends StatefulWidget {
+  @override
+  _TestState createState() => _TestState();
+}
+
+class _TestState extends State<Test> {
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
 
